@@ -1,0 +1,17 @@
+title: "Web Servers Explained: Understanding Apache and Nginx"
+description: "A beginner-friendly technical blog on how web servers work and how Apache and Nginx differ."
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  parse_block_html: true      # render Markdown inside the two-column HTML tables and <details>
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
