@@ -12,9 +12,11 @@ kramdown:
 
 defaults:
   - scope:
-      path: "blog"
+      path: ""
     values:
       layout: default
 
 exclude:
   - README.md
+  - Gemfile
+  - Gemfile.lock
